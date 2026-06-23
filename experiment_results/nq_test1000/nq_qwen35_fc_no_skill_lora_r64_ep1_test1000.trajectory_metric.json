@@ -1,0 +1,15 @@
+{
+  "generation_dir": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r64_ep1_test1000.generations/test",
+  "files": [
+    "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r64_ep1_test1000.generations/test/0.trajectory_metrics.jsonl"
+  ],
+  "success_definition": "score >= 1.0 (Skill0/SearchQA paper metric)",
+  "total": 1000,
+  "searched": 974,
+  "search_rate": 0.974,
+  "success": 374,
+  "success_rate": 0.374,
+  "avg_search_count": 1.726,
+  "avg_score": 0.374,
+  "acc": 0.374
+}

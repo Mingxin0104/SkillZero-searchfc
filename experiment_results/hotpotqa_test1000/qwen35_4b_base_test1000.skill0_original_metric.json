@@ -1,0 +1,15 @@
+{
+  "generation_dir": "/workspace/limingxin/logs/searchqa_qwen35_hotpot8_test1000_2gpu_sharded/qwen35_4b_base_test1000.generations/test",
+  "files": [
+    "/workspace/limingxin/logs/searchqa_qwen35_hotpot8_test1000_2gpu_sharded/qwen35_4b_base_test1000.generations/test/0.jsonl"
+  ],
+  "total": 1000,
+  "searched": 1000,
+  "search_rate": 1.0,
+  "answered": 703,
+  "answer_rate": 0.703,
+  "avg_search_count": 2.403,
+  "avg_score": 0.407,
+  "acc": 0.407,
+  "metric": "skill0_original"
+}

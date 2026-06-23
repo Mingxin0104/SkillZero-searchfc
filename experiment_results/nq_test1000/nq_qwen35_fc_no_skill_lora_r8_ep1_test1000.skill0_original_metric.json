@@ -1,0 +1,15 @@
+{
+  "generation_dir": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r8_ep1_test1000.generations/test",
+  "files": [
+    "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r8_ep1_test1000.generations/test/0.jsonl"
+  ],
+  "total": 1000,
+  "searched": 973,
+  "search_rate": 0.973,
+  "answered": 802,
+  "answer_rate": 0.802,
+  "avg_search_count": 1.726,
+  "avg_score": 0.372,
+  "acc": 0.372,
+  "metric": "skill0_original"
+}

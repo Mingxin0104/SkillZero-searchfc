@@ -1,0 +1,101 @@
+[
+  {
+    "name": "nq_qwen35_fc_no_skill_lora_r16_ep1_test1000",
+    "total": 1000,
+    "acc": 0.377,
+    "success_rate": 0.377,
+    "answer_rate": 0.797,
+    "search_rate": 0.974,
+    "avg_search_count": 1.742,
+    "trajectory_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r16_ep1_test1000.trajectory_metric.json",
+    "skill0_original_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r16_ep1_test1000.skill0_original_metric.json"
+  },
+  {
+    "name": "nq_qwen35_fc_no_skill_lora_r32_ep1_test1000",
+    "total": 1000,
+    "acc": 0.378,
+    "success_rate": 0.378,
+    "answer_rate": 0.8,
+    "search_rate": 0.974,
+    "avg_search_count": 1.738,
+    "trajectory_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r32_ep1_test1000.trajectory_metric.json",
+    "skill0_original_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r32_ep1_test1000.skill0_original_metric.json"
+  },
+  {
+    "name": "nq_qwen35_fc_no_skill_lora_r64_ep1_test1000",
+    "total": 1000,
+    "acc": 0.374,
+    "success_rate": 0.374,
+    "answer_rate": 0.805,
+    "search_rate": 0.974,
+    "avg_search_count": 1.726,
+    "trajectory_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r64_ep1_test1000.trajectory_metric.json",
+    "skill0_original_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r64_ep1_test1000.skill0_original_metric.json"
+  },
+  {
+    "name": "nq_qwen35_fc_no_skill_lora_r8_ep1_test1000",
+    "total": 1000,
+    "acc": 0.372,
+    "success_rate": 0.372,
+    "answer_rate": 0.802,
+    "search_rate": 0.973,
+    "avg_search_count": 1.726,
+    "trajectory_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r8_ep1_test1000.trajectory_metric.json",
+    "skill0_original_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_no_skill_lora_r8_ep1_test1000.skill0_original_metric.json"
+  },
+  {
+    "name": "nq_qwen35_fc_with_skill_lora_r16_ep1_test1000",
+    "total": 1000,
+    "acc": 0.378,
+    "success_rate": 0.378,
+    "answer_rate": 0.805,
+    "search_rate": 0.974,
+    "avg_search_count": 1.725,
+    "trajectory_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_with_skill_lora_r16_ep1_test1000.trajectory_metric.json",
+    "skill0_original_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_with_skill_lora_r16_ep1_test1000.skill0_original_metric.json"
+  },
+  {
+    "name": "nq_qwen35_fc_with_skill_lora_r32_ep1_test1000",
+    "total": 1000,
+    "acc": 0.377,
+    "success_rate": 0.377,
+    "answer_rate": 0.806,
+    "search_rate": 0.974,
+    "avg_search_count": 1.734,
+    "trajectory_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_with_skill_lora_r32_ep1_test1000.trajectory_metric.json",
+    "skill0_original_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_with_skill_lora_r32_ep1_test1000.skill0_original_metric.json"
+  },
+  {
+    "name": "nq_qwen35_fc_with_skill_lora_r64_ep1_test1000",
+    "total": 1000,
+    "acc": 0.375,
+    "success_rate": 0.375,
+    "answer_rate": 0.801,
+    "search_rate": 0.974,
+    "avg_search_count": 1.732,
+    "trajectory_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_with_skill_lora_r64_ep1_test1000.trajectory_metric.json",
+    "skill0_original_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_with_skill_lora_r64_ep1_test1000.skill0_original_metric.json"
+  },
+  {
+    "name": "nq_qwen35_fc_with_skill_lora_r8_ep1_test1000",
+    "total": 1000,
+    "acc": 0.371,
+    "success_rate": 0.371,
+    "answer_rate": 0.793,
+    "search_rate": 0.97,
+    "avg_search_count": 1.723,
+    "trajectory_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_with_skill_lora_r8_ep1_test1000.trajectory_metric.json",
+    "skill0_original_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/nq_qwen35_fc_with_skill_lora_r8_ep1_test1000.skill0_original_metric.json"
+  },
+  {
+    "name": "qwen35_4b_base_test1000",
+    "total": 1000,
+    "acc": 0.367,
+    "success_rate": 0.367,
+    "answer_rate": 0.782,
+    "search_rate": 0.963,
+    "avg_search_count": 1.706,
+    "trajectory_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/qwen35_4b_base_test1000.trajectory_metric.json",
+    "skill0_original_metric_path": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/qwen35_4b_base_test1000.skill0_original_metric.json"
+  }
+]

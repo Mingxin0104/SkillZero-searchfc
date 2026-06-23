@@ -1,0 +1,15 @@
+{
+  "generation_dir": "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/qwen35_4b_base_test1000.generations/test",
+  "files": [
+    "/workspace/limingxin/logs/searchqa_qwen35_nq8_plus_base_test1000_2gpu_sharded/qwen35_4b_base_test1000.generations/test/0.jsonl"
+  ],
+  "total": 1000,
+  "searched": 963,
+  "search_rate": 0.963,
+  "answered": 782,
+  "answer_rate": 0.782,
+  "avg_search_count": 1.706,
+  "avg_score": 0.367,
+  "acc": 0.367,
+  "metric": "skill0_original"
+}

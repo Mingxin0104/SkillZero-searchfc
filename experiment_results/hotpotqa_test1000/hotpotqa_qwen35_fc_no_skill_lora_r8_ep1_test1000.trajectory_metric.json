@@ -1,0 +1,15 @@
+{
+  "generation_dir": "/workspace/limingxin/logs/searchqa_qwen35_hotpot8_test1000_2gpu_sharded/hotpotqa_qwen35_fc_no_skill_lora_r8_ep1_test1000.generations/test",
+  "files": [
+    "/workspace/limingxin/logs/searchqa_qwen35_hotpot8_test1000_2gpu_sharded/hotpotqa_qwen35_fc_no_skill_lora_r8_ep1_test1000.generations/test/0.trajectory_metrics.jsonl"
+  ],
+  "success_definition": "score >= 1.0 (Skill0/SearchQA paper metric)",
+  "total": 1000,
+  "searched": 1000,
+  "search_rate": 1.0,
+  "success": 407,
+  "success_rate": 0.407,
+  "avg_search_count": 2.403,
+  "avg_score": 0.407,
+  "acc": 0.407
+}
