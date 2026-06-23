@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+cd "$REPO_ROOT"
+export PYTHONPATH="$REPO_ROOT${PYTHONPATH:+:$PYTHONPATH}"
+OUT_DIR="${OUT_DIR:-/public/limingxin/SkillZero/data/searchqa_trace_sft_train_vllm}"
+INTERVAL="${INTERVAL:-30}"
+LOG="$OUT_DIR/logs/progress.log"
+mkdir -p "$(dirname "$LOG")"
+
+while true; do
+    ts="$(date -Is)"
+    gpu="$(nvidia-smi --query-gpu=index,memory.used,memory.free,utilization.gpu --format=csv,noheader,nounits | tr '\n' ';')"
+    processed="$(grep -o 'processed=[0-9]*/[0-9]*' "$OUT_DIR/logs/vllm_train.log" 2>/dev/null | tail -n 1 | cut -d= -f2)"
+    accepted="$(grep -o 'accepted=[0-9]*' "$OUT_DIR/logs/vllm_train.log" 2>/dev/null | tail -n 1 | cut -d= -f2)"
+    candidates="$(grep -o 'all_candidates=[0-9]*' "$OUT_DIR/logs/vllm_train.log" 2>/dev/null | tail -n 1 | cut -d= -f2)"
+    success_lines="$(wc -l "$OUT_DIR/traces.jsonl" 2>/dev/null | awk '{print $1}')"
+    all_lines="$(wc -l "$OUT_DIR/traces_all.jsonl" 2>/dev/null | awk '{print $1}')"
+    processed="${processed:-0/117384}"
+    accepted="${accepted:-0}"
+    candidates="${candidates:-0}"
+    success_lines="${success_lines:-0}"
+    all_lines="${all_lines:-0}"
+    echo "$ts processed=$processed accepted=$accepted candidates=$candidates success_lines=$success_lines all_lines=$all_lines gpu=[$gpu]" | tee -a "$LOG"
+    sleep "$INTERVAL"
+done

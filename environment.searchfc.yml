@@ -1,0 +1,24 @@
+name: skillzero-searchfc
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - git
+  - tmux
+  - curl
+  - pip:
+      - -r requirements.txt
+      - fastapi
+      - uvicorn
+      - pydantic
+      - requests
+      - pandas
+      - pyarrow
+      - peft
+      - safetensors
+      - sentencepiece
+      - faiss-gpu-cu12
+      - vllm
